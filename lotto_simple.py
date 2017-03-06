@@ -3,11 +3,8 @@
 import random
 
 def tipp():
-    # liste für die ziehung
     tipp = []
-    # der tippschein zur kontrolle
     schein = list(range(1, 49))
-    # 6 zahlen ankreuzen
     for i in range(6):
         valid = False
         while not valid:
